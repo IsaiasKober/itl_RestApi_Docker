@@ -22,7 +22,7 @@ namespace linux_prueba.Entities
         {
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseMySQL("server=localhost;port=3306;user=root;password=kober;database=itl_db");
+                optionsBuilder.UseMySQL("server=mysql-container;port=3306;user=root;password=kober;database=itl_db");
             }
         }
 
